@@ -7,10 +7,10 @@ import Header from "@/components/Header";
 import { AuthProvider } from "@/context/authContext";
 
 
-export const metadata = {
-    title: 'NextJS meets Appwrite',
-    description: "learning experience"
-}
+// export const metadata = {
+//     title: 'NextJS meets Appwrite',
+//     description: "learning experience"
+// }
 
 export default function ProtectedLayout({
     children
