@@ -1,6 +1,6 @@
 import configFile from "../config/config";
-import { Client, Account, ID } from 'appwrite';
-// const { Client, Account, ID } = require('appwrite');
+// import { Client, Account, ID } from 'appwrite';
+const { Client, Account, ID } = require('appwrite');
 
 type CreateUserAccount = {
     email: String,
